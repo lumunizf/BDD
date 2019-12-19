@@ -1,4 +1,4 @@
-#### Funcionalidade: *Gerar Romaneio*
+### Funcionalidade: *Gerar Romaneio*
 
 ```
 Como usuário do sistema ERP Imifarma <br/>
@@ -7,7 +7,7 @@ Para dar seguimento ao processo de transferência de mercadorias do CD para a lo
 ```
 <br/>
 
-##### **Cenário 01:** *Gerar Romaneio* <br/>
+#### **Cenário 01:** *Gerar Romaneio* <br/>
 
 ```
 Dado que eu acesse a tela “Consulta de Romaneio”
@@ -22,7 +22,7 @@ Então o sistema cria o romaneio com sucesso.
 ```
 <br/>
 
-##### **Cenário 02:** *Consultar Romaneio* <br/>
+#### **Cenário 02:** *Consultar Romaneio* <br/>
 
 ```
 Dado que eu acesse a tela “Consulta de Romaneio”
