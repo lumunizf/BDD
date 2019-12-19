@@ -1,6 +1,6 @@
 ### SINTAXE DE UMA ESTÓRIA DE USUÁRIO
 
-####**Funcionalidade:** *<nome da funcionalidade descrita no PBI>* <br/>
+### **Funcionalidade:** *<nome da funcionalidade descrita no PBI>* <br/>
 
 **Como** <Ator (quem?)> <br/>
 **Eu** desejo | gostaria | devo | posso <descrever a necessidade> <br/>
@@ -14,7 +14,6 @@ Para diminuir o tempo que o gerente passa fora da área de vendas, reduzir desvi
 ### POSSÍVEIS CENÁRIOS DA FUNCIONALIDADE DESCRITOS NO FORMATO BDD
 
 **Cenário 01:** *<nome do cenário a ser testado>*
-
 ```
 Dado que <ação inicial>
 E <demais ações (opcional)>
@@ -26,7 +25,6 @@ Então <obtenho um resultado>.
 ***Por exemplo:*** <br/>
 
 **Cenário 01:** *Transferir itens entre lojas*
-
 ```
 Dado que eu solicite a transferência de itens da minha loja para outra loja
 Quando a loja de destino aprovar a transferência pelo sistema Extrafarma Web 
