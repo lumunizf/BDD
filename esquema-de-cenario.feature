@@ -1,9 +1,9 @@
 #language: pt-BR
 
 Funcionalidade: Cadastrar Pedido de atacado no ERP Imifarma
-				Como usuário do sistema 
-				Eu desejo automatizar o processo de criação de pedidos de Atacado no ERP Imifarma 
-				Para agilizar o processo de homologação deste fluxo.
+	Como usuário do sistema 
+	Eu desejo automatizar o processo de criação de pedidos de Atacado no ERP Imifarma 
+	Para agilizar o processo de homologação deste fluxo.
 
 Esquema do Cenário: Cadastrar pedido de produtos padrão
 	Dado que acesse a tela de Gerenciamento de Pedidos de vendas
