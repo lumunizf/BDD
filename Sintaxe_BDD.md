@@ -7,7 +7,7 @@
 **Eu** desejo | gostaria | devo | posso <br/>
 **Para** (descrever o(s) resultado(s) a serem atingidos com o desenvolvimento desta user story). <br/>
 
-**Por exemplo:**
+**Por exemplo:** <br/>
 **Como** gerente de loja <br/>
 **Eu** desejo ter a opção de transferir produtos para outras lojas de forma prática e ter a visibilidade do que é transferido <br/>
 **Para** diminuir o tempo que o gerente passa fora da área de vendas, reduzir desvios de auditoria e melhorar a acuracidade dos estoques. <br/>
