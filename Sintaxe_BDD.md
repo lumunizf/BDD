@@ -10,17 +10,17 @@
 **E** clique no botão 'Novo Romaneio' <br/>
 **E** clique no botão 'Sair (ESC)' do pop up "Notas sem Romaneio" <br/>
 **E** o sistema apresente a tela "Digitação de Romaneio" <br/>
-**E** preencha os campos [Motorista], [Auxiliar], [Veículo], [Destino], [Pedido], [Qtd Volume] <br/>
+**E** preencha os campos <Motorista>, <Auxiliar>, <Veículo>, <Destino>, <Pedido>, <Qtd Volume> <br/>
 **E** acione a tecla <ENTER> <br/>
 **Quando** clico no botão 'ESC - Sair' <br/>
 **E** confirmo a criação do romaneio <br/>
-**Então** o sistema cria o com sucesso. <br/>
+**Então** o sistema cria o romaneio com sucesso. <br/>
 
 
 **Cenário 02:** *Consultar Romaneio*
 
 **Dado** que eu acesse a tela “Consulta de Romaneio” <br/>
 **E** selecione a opção 'Pendentes' na opção de filtro <br/>
-**E** informe o número do no campo romaneio <br/>
+**E** informe o número do <romaneio> no campo romaneio <br/>
 **Quando** clico no botão 'F3 - Pesquisar' <br/>
-**Então** o sistema apresenta o registro do romaneio na área 'Status do Processo'. <br/>
+**Então** o sistema apresenta o registro do <romaneio> na área 'Status do Processo'. <br/>
