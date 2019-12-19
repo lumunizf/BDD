@@ -1,5 +1,5 @@
 SINTAXE DE UMA ESTÓRIA DE USUÁRIO
-Funcionalidade:
+Funcionalidade: <Nome da funcionalidade>
 Como <Ator (quem?)>
 Eu desejo | gostaria | devo | posso
 Para <descrever o(s) resultado(s) a serem atingidos com o desenvolvimento desta user story>.
