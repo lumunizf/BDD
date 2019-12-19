@@ -1,12 +1,10 @@
-### SINTAXE DE UMA ESTÓRIA DE USUÁRIO <br/>
-
-**Funcionalidade:** (*Nome da funcionalidade*) <br/>
+Funcionalidade: (Nome da funcionalidade)
   
-**Como** (Ator (quem?)) <br/>
-**Eu** desejo | gostaria | devo | posso <br/>
-**Para** (descrever o(s) resultado(s) a serem atingidos com o desenvolvimento desta user story). <br/>
+Como (Ator (quem?))
+Eu desejo | gostaria | devo | posso
+Para (descrever o(s) resultado(s) a serem atingidos com o desenvolvimento desta user story).
 
-**Cenário 01:** *(nome do cenário a ser testado)*
+Cenário 01: nome do cenário a ser testado
 
 ~~~Gherkin
 Dado que <ação inicial>
@@ -16,17 +14,16 @@ E <efetuo outras operações (opcional)>
 Então <obtenho um resultado>.
 ~~~
 
-<br/>
 
-#### POR EXEMPLO <br/>
+POR EXEMPLO
 
-**Funcionalidade:** (*Transferência entre lojas*) <br/>
+Funcionalidade: Transferência entre lojas
 
-**Como** gerente de loja <br/>
-**Eu** desejo ter a opção de transferir produtos para outras lojas de forma prática e ter a visibilidade do que é transferido <br/>
-**Para** diminuir o tempo que o gerente passa fora da área de vendas, reduzir desvios de auditoria e melhorar a acuracidade dos estoques. <br/>
+Como gerente de loja
+Eu desejo ter a opção de transferir produtos para outras lojas de forma prática e ter a visibilidade do que é transferido
+Para diminuir o tempo que o gerente passa fora da área de vendas, reduzir desvios de auditoria e melhorar a acuracidade dos estoques.
 
-**Cenário 01:** *Transferir itens entre lojas*
+Cenário 01: Transferir itens entre lojas
 
 ~~~Gherkin
 Dado que eu solicite a transferência de itens da minha loja para outra loja
