@@ -1,8 +1,8 @@
 ### Funcionalidade: *Gerar Romaneio*
 
-**Como** usuário do sistema ERP Imifarma
-**Eu** desejo gerar um romaneio
-**Para** dar seguimento ao processo de transferência de mercadorias do CD para a loja.
+**Como** usuário do sistema ERP Imifarma <br/>
+**Eu** desejo gerar um romaneio <br/>
+**Para** dar seguimento ao processo de transferência de mercadorias do CD para a loja. <br/>
 
 ### Cenário 01: *Gerar Romaneio*
 
