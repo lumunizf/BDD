@@ -6,13 +6,11 @@ Para (descrever o(s) resultado(s) a serem atingidos com o desenvolvimento desta 
 
 Cenário 01: nome do cenário a ser testado
 
-~~~Gherkin
 Dado que <ação inicial>
 E <demais ações (opcional)>
 Quando <efetuo uma operação>
 E <efetuo outras operações (opcional)>
-Então <obtenho um resultado>.
-~~~
+Então <obtenho um resultado>
 
 
 POR EXEMPLO
@@ -25,9 +23,7 @@ Para diminuir o tempo que o gerente passa fora da área de vendas, reduzir desvi
 
 Cenário 01: Transferir itens entre lojas
 
-~~~Gherkin
 Dado que eu solicite a transferência de itens da minha loja para outra loja
 Quando a loja de destino aprovar a transferência pelo sistema Extrafarma Web 
 E a nota fiscal de transferência loja-loja for gerada automaticamente
 Então a operação de transferência entre lojas é finalizada com sucesso.
-~~~
