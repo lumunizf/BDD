@@ -1,19 +1,19 @@
-#### SINTAXE DE UMA ESTÓRIA DE USUÁRIO
+### SINTAXE DE UMA ESTÓRIA DE USUÁRIO
 
-#####**Funcionalidade:** *<nome da funcionalidade descrita no PBI>* <br/>
+####**Funcionalidade:** *<nome da funcionalidade descrita no PBI>* <br/>
 
 **Como** <Ator (quem?)> <br/>
 **Eu** desejo | gostaria | devo | posso <descrever a necessidade> <br/>
 **Para** <descrever o(s) resultado(s) a serem atingidos com o desenvolvimento desta user story>. <br/>
 
-######***Por exemplo:*** <br/>
+***Por exemplo:*** <br/>
 *Como gerente de loja <br/>
 Eu desejo ter a opção de transferir produtos para outras lojas de forma prática e ter a visibilidade do que é transferido <br/>
 Para diminuir o tempo que o gerente passa fora da área de vendas, reduzir desvios de auditoria e melhorar a acuracidade dos estoques.* <br/>
 
-#### POSSÍVEIS CENÁRIOS DA FUNCIONALIDADE DESCRITOS NO FORMATO BDD
+### POSSÍVEIS CENÁRIOS DA FUNCIONALIDADE DESCRITOS NO FORMATO BDD
 
-##### **Cenário 01:** *<nome do cenário a ser testado>*
+**Cenário 01:** *<nome do cenário a ser testado>*
 
 ```
 Dado que <ação inicial>
@@ -23,9 +23,9 @@ E <efetuo outras operações (opcional)>
 Então <obtenho um resultado>.
 ```
 
-######***Por exemplo:*** <br/>
+***Por exemplo:*** <br/>
 
-#####**Cenário 01:** *Transferir itens entre lojas*
+**Cenário 01:** *Transferir itens entre lojas*
 
 ```
 Dado que eu solicite a transferência de itens da minha loja para outra loja
