@@ -18,7 +18,7 @@ Então <obtenho um resultado>.
 
 <br/>
 
-### POR EXEMPLO <br/>
+#### POR EXEMPLO <br/>
 
 **Funcionalidade:** (*Transferência entre lojas*) <br/>
 
