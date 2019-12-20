@@ -1,5 +1,9 @@
 ### BDD (Behavior Driven Development)
 
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/keras-team/keras/blob/master/LICENSE) <br/> 
+
+<kbd>Versão 1.0</kbd>
+
 BDD syntax for user stories. <br/>
 
 > BDD (*Behavior Driven Development*) ou **desenvolvimento orientado por comportamento** é uma técnica de desenvolvimento Ágil que
