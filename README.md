@@ -1,47 +1,22 @@
-# BDD
-BDD syntax for user stories.
+### BDD (Behavior Driven Development)
 
-Funcionalidade: Gerar Romaneio
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/keras-team/keras/blob/master/LICENSE) <br/> 
 
-Como usuário do sistema ERP Imifarma
+<kbd>Versão 1.0</kbd>
 
-Eu desejo gerar um romaneio
+BDD syntax for user stories. <br/>
 
-Para dar seguimento ao processo de transferência de mercadorias do CD para a loja.
+> BDD (*Behavior Driven Development*) ou **desenvolvimento orientado por comportamento** é uma técnica de desenvolvimento Ágil que
+> encoraja colaboração entre desenvolvedores, setores de qualidade e pessoas não-técnicas ou de negócios num projeto de software e se
+> relaciona com o conceito de verificação e validação. <br/>
+> <br/>
+> **Wikipedia** <br/>
 
-Cenário 01: Gerar Romaneio
-
-
-​Dado que eu acesse a tela “Consulta de Romaneio”
-
-E clique no botão 'Novo Romaneio'
-
-E clique no botão 'Sair (ESC)' do pop up "Notas sem Romaneio"
-
-E o sistema apresente a tela "Digitação de Romaneio"
-
-E preencha os campos [Motorista], [Auxiliar], [Veículo], [Destino], [Pedido], [Qtd Volume]
-
-E acione <ENTER>
-
-Quando clico no botão 'ESC - Sair'
-
-E confirmo a criação do romaneio
-
-Então o sistema cria o <romaneio> com sucesso.
+![BDD](bdd-given-when-then.jpg)
+<br/>
+<br/>
 
 
 
-Cenário 02: Consultar Romaneio
-
-
-
-​Dado que eu acesse a tela “Consulta de Romaneio”
-
-E selecione a opção 'Pendentes' na opção de filtro
-
-E informe o número do <romaneio> no campo romaneio
-
-Quando clico no botão 'F3 - Pesquisar'
-
-Então o sistema apresenta o registro do romaneio na área 'Status do Processo'.
+#### License
+MIT License © [Luciana Muniz Freire](https://br.linkedin.com/in/lumunizf).
