@@ -1,8 +1,4 @@
-### BDD (Behavior Driven Development)
-
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/keras-team/keras/blob/master/LICENSE) <br/> 
-
-<kbd>Versão 1.0</kbd>
+### BDD (Behavior Driven Development) - <kbd>Versão 1.0</kbd> <br/>
 
 BDD syntax for user stories. <br/>
 
@@ -14,9 +10,9 @@ BDD syntax for user stories. <br/>
 
 ![BDD](bdd.png)
 <br/>
-<br/>
 
 
 
-#### License
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/keras-team/keras/blob/master/LICENSE) <br/> 
 MIT License © [Luciana Muniz Freire](https://br.linkedin.com/in/lumunizf).
