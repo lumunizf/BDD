@@ -8,7 +8,9 @@ BDD syntax for user stories. <br/>
 > <br/>
 > **Wikipedia** <br/>
 
-![BDD](bdd.png)
+<div align="center">
+<img src="bdd.png" alt="BDD" width="300" />
+
 <br/>
 
 
