@@ -1,7 +1,5 @@
 ## BDD (Behavior Driven Development)
 
-:recycle: BDD syntax for user stories. <br/>
-
 [![GitHub license](https://img.shields.io/github/license/lumunizf/BDD)](https://github.com/lumunizf/BDD/blob/master/LICENSE)
 ![GitHub top language](https://img.shields.io/github/languages/top/lumunizf/BDD)
 [![GitHub issues](https://img.shields.io/github/issues/lumunizf/BDD)](https://github.com/lumunizf/BDD/issues) 
@@ -12,18 +10,23 @@
 [![Twitter: @lumunizf](https://img.shields.io/badge/Twitter-@lumunizf-blueviolet.svg?style=flat)](https://twitter.com/lumunizf) 
 [![Website](https://img.shields.io/website?url=https://medium.com/@lumunizf)](https://medium.com/@lumunizf)
 
-> BDD (*Behavior Driven Development*) ou **desenvolvimento orientado por comportamento** é uma técnica de desenvolvimento Ágil que
-> encoraja colaboração entre desenvolvedores, setores de qualidade e pessoas não-técnicas ou de negócios num projeto de software e se
-> relaciona com o conceito de verificação e validação. <br/>
-> <br/>
-> **Wikipedia** <br/>
-
 <div align="center">
 <img src="bdd.png" alt="BDD" width="200" />
 </div>
 
 <br/>
 
+:recycle: **BDD syntax for user stories.** <br/>
+
+> BDD (*Behavior Driven Development*) ou **desenvolvimento orientado por comportamento** é uma técnica de desenvolvimento Ágil que
+> encoraja colaboração entre desenvolvedores, setores de qualidade e pessoas não-técnicas ou de negócios num projeto de software e se
+> relaciona com o conceito de verificação e validação. <br/>
+> <br/>
+> ** – Wikipedia – **
+
+<br/>
+
+
 ## License
 
-MIT License © [Luciana Muniz Freire](https://br.linkedin.com/in/lumunizf).
+⚖️ MIT License © [Luciana Muniz Freire](https://br.linkedin.com/in/lumunizf).
