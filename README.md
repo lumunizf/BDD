@@ -22,7 +22,7 @@
 > encoraja colaboração entre desenvolvedores, setores de qualidade e pessoas não-técnicas ou de negócios num projeto de software e se
 > relaciona com o conceito de verificação e validação. <br/>
 > <br/>
-> ** – Wikipedia – **
+> [– Wikipedia –](https://pt.wikipedia.org/wiki/Behavior_Driven_Development)
 
 <br/>
 
