@@ -10,10 +10,10 @@
 
 -------
 <p align="center">
-    <a href="#definição">BDD</a> &bull;
+    <a href="#bdd">BDD</a> &bull;
     <a href="#cucumber">Cucumber</a> &bull;
-    <a href="#sintaxe">Gherkin</a> &bull;
-    <a href="#automação">Testes</a> &bull;
+    <a href="#gherkin">Gherkin</a> &bull;
+    <a href="#testes">Testes Automatizados</a> &bull;
     <a href="#configuração">Configurações</a> &bull;
     <a href="#license">Licença</a>
 </p>
@@ -26,9 +26,9 @@
 
 <br/>
 
-recycle: **BDD for user stories.** <br/>
+:recycle: **BDD for user stories.** <br/>
 
-## Definição de BDD
+## BDD
 
 > BDD (*Behavior Driven Development*) ou **desenvolvimento orientado por comportamento** é uma técnica de desenvolvimento Ágil que
 > encoraja colaboração entre desenvolvedores, setores de qualidade e pessoas não-técnicas ou de negócios num projeto de software e se
@@ -49,9 +49,9 @@ recycle: **BDD for user stories.** <br/>
 É um framework para a prática do BDD. Através dele escrevemos as especificações das funcionalidades utilizando a linguagem [Gherkin](https://cucumber.io/docs/gherkin/ "Sintaxe do Gherkin").
 
 
-### Sintaxe do Gherkin
+## Gherkin
 
-<p> As *user stories* são descritas em linguagem natural possibilitando o entendimento tanto pela equipe técnica quanto pela área de negócios.
+As *user stories* são descritas em linguagem natural possibilitando o entendimento tanto pela equipe técnica quanto pela área de negócios. 
 
 O comportamento da funcionalidade é descrito utilizando as palavras reservadas abaixo:
 
@@ -64,11 +64,14 @@ Então ...
 Veja um exemplo do comportamento de uma funcionalidade descrito com Gherkin [clicando aqui](https://github.com/lumunizf/BDD/blob/master/Sintaxe_BDD.md).
 
 
-## Automação de testes
+## Testes
 
 <div align="center">
 <img src="images/test.png" alt="Automação de teste" width="100" />
 </div>
+
+
+Para automatizar os testes descritos nos arquivos *.feature* são necessários alguns pré-requisitos, descritos à seguir.
 
 
 ### Pré-requisitos
@@ -84,7 +87,9 @@ Veja um exemplo do comportamento de uma funcionalidade descrito com Gherkin [cli
 * JUnit - Versão 4.12
 
 
-## Configuração do ambiente de teste
+## Configuração
+
+Procedimentos para a configuração do ambiente de testes.
 
 
 ### 1. Instalação do Eclipse IDE
@@ -203,14 +208,16 @@ Para adicionar as bibliotecas do Cucumber Eclipse Plugin e suas dependências, d
 </dependencies>
 ```
 
+<br/>
 
-## Executar os testes
-
-
-Para executar os testes com o Cucumber, no Eclipse acesse o botão Run > Run As > "Cucumber Feature"
+## Execução dos testes
 
 
-### Testes no JUnit
+Para executar os testes com o Cucumber, acesse no Eclipse o botão Run > Run As > "Cucumber Feature"
+
+<br/>
+
+### Execução de testes com o JUnit
 
 <div align="center">
 <img src="images/junit.png" alt="JUnit" width="100" />
@@ -218,9 +225,9 @@ Para executar os testes com o Cucumber, no Eclipse acesse o botão Run > Run As 
 
 
 Para rodar os testes com o JUnit, siga os passos abaixo:
-* Acessar o site [MVN Repository](https://mvnrepository.com/) e efetuar uma busca por 'cucumber'
-* Clicar na opção *"Cucumber JVM: JUnit"* > selecionar a versão 1.2.5
-* Copiar o trecho de código abaixo e colar no arquivo 'pom.xml' do projeto:
+* Acesse o site [MVN Repository](https://mvnrepository.com/) e efetue uma busca por 'cucumber'
+* Clique na opção *"Cucumber JVM: JUnit"* > selecione a versão 1.2.5
+* Copie o trecho de código abaixo e cole no arquivo 'pom.xml' do projeto:
 
 
 ```
@@ -234,8 +241,11 @@ Para rodar os testes com o JUnit, siga os passos abaixo:
 </dependencies>
 ```
 
+<br/>
 
 ### Criação da classe Runner
+
+Crie a classe Runner para configurar o comportamento dos resultados de teste a cada execução.
 
 
 ```java
