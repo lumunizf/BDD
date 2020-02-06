@@ -21,7 +21,7 @@
 -------
 
 <div align="center">
-<img src="images/bdd.png" alt="BDD" width="200" />
+<img src="images/bdd.png" alt="BDD" width="150" />
 </div>
 
 <br/>
@@ -41,7 +41,7 @@ recycle: **BDD for user stories.** <br/>
 ## Cucumber
 
 <div align="center">
-<img src="cucumber.png" alt="Cucumber" width="200" />
+<img src="images/cucumber.png" alt="Cucumber" width="200" />
 </div>
 
 <br/>
@@ -67,12 +67,14 @@ Veja um exemplo do comportamento de uma funcionalidade descrito com Gherkin [cli
 ## Automação de testes
 
 <div align="center">
-<img src="test.png" alt="Automação de teste" width="100" />
+<img src="images/test.png" alt="Automação de teste" width="100" />
 </div>
+
 
 ### Pré-requisitos
 
 * Java development kit (JDK 8) - Release 10.0.2
+
 
 ### Ferramentas
 
@@ -81,29 +83,36 @@ Veja um exemplo do comportamento de uma funcionalidade descrito com Gherkin [cli
 * Cucumber Eclipse Plugin
 * JUnit - Versão 4.12
 
+
 ## Configuração do ambiente de teste
+
 
 ### 1. Instalação do Eclipse IDE
 
 <div align="center">
-<img src="eclipse.png" alt="Eclipse IDE" width="200" />
+<img src="images/eclipse.png" alt="Eclipse IDE" width="200" />
 </div>
+
 
 * Download do [Eclipse](https://www.eclipse.org/downloads/)
 * Descompactar o arquivo e clicar sobre o executável para iniciar a instalação.
 
+
 ### 2. Instalação do Java JDK 8
 
 <div align="center">
-<img src="java.png" alt="Java JDK 8" width="100" />
+<img src="images/java.png" alt="Java JDK 8" width="75" />
 </div>
+
 
 - Download do instalador do [Java JDK](http://www.oracle.com/technetwork/pt/java/javase/downloads)
 - Aceitar a licença clicando em "Accept License Agreement".
 - Clicar no link para download referente ao seu sistema operacional (Windows x64).
 - Após o download, executar a instalação (*next, next, finish*).
 
+
 ### 3. Configuração das variáveis de ambiente
+
 
 - Adicionar *JAVA_HOME* nas variáveis de ambiente:
 
@@ -116,7 +125,9 @@ Veja um exemplo do comportamento de uma funcionalidade descrito com Gherkin [cli
     * Ainda na área "Variáveis do sistema", selecionar a variável "Path" > botão Editar.
     * Acrescentar ao final das configurações > *;%JAVA_HOME%\bin* > botão OK.
 
+
 ### 4. Validar a configuração das variáveis de ambiente
+
 
 - Acessar o prompt de comando e digitar:
 
@@ -138,40 +149,49 @@ javac -version
 
 **Versão da biblioteca JRE**
 
->[!NOTE]
->> Valide se a biblioteca do JRE está na mesma versão da biblioteca JRE baixada e, caso não esteja, siga os passos abaixo.
-
 > <span style="color:red">**ATENÇÃO!**</span>
->>Valide se a biblioteca do JRE está na mesma versão da biblioteca JRE baixada e, caso não esteja, siga os passos abaixo.
->
->>1. Clique com o botão direito no projeto > opção 'propriedades' > Java Build Path > Libraries > remover a biblioteca.
->>2. Na sequência clicar no botão 'Add library' > selecionar a versão atual da biblioteca > next > apply and close.
->
+
+
+Valide se a biblioteca do JRE está na mesma versão da biblioteca JRE baixada e, caso não esteja, siga os passos abaixo.
+
+* Clique com o botão direito no projeto > opção 'propriedades' > Java Build Path > Libraries > remover a biblioteca.
+* Na sequência clicar no botão 'Add library' > selecionar a versão atual da biblioteca > next > apply and close.
 
 <br/>
+
 ### 5. Instalação do Cucumber Eclipse Plugin
 
 <div align="center">
-<img src="cucumber-logo.png" alt="Cucumber" width="50" />
+<img src="images/cucumber-logo.png" alt="Cucumber" width="50" />
 </div>
 
-Para instalar o **Cucumber Eclipse Plugin** no Eclipse, acesse o Menu Help > Eclipse Marketplace > Search "Cucumber"
-Em seguida clique no botão *Install*
+
+Para instalar o **Cucumber Eclipse Plugin** no Eclipse, siga os passos abaixo:
+
+* Acesse o Menu Help > Eclipse Marketplace > Search "Cucumber"
+
+* Em seguida clique no botão *Install*.
+
+<br/>
 
 ### 6. Configuração das dependências no Maven
 
 <div align="center">
-<img src="maven.png" alt="Maven" width="100" />
+<img src="images/maven.png" alt="Maven" width="100" />
 </div>
+
+<br/>
 
 * Criar um projeto MAVEN através do Eclipse IDE em File > New > Other > Maven > Maven Project > opção "Create a simple project".
 
 * Informar o Group id (link da empresa), o Artfact id (nome do projeto) > botão Finish.
 
+<br/>
 
 ### 7. Atualizar o arquivo POM.xml
 
-* Para adicionar as bibliotecas do Cucumber Eclipse Plugin e suas dependências, digitar no arquivo *"POM.xml"*:
+
+Para adicionar as bibliotecas do Cucumber Eclipse Plugin e suas dependências, digitar no arquivo *"POM.xml"*:
 
 ```
 <dependencies>
@@ -183,21 +203,25 @@ Em seguida clique no botão *Install*
 </dependencies>
 ```
 
+
 ## Executar os testes
+
 
 Para executar os testes com o Cucumber, no Eclipse acesse o botão Run > Run As > "Cucumber Feature"
 
 
-### JUnit
+### Testes no JUnit
 
 <div align="center">
-<img src="junit.png" alt="JUnit" width="100" />
+<img src="images/junit.png" alt="JUnit" width="100" />
 </div>
+
 
 Para rodar os testes com o JUnit, siga os passos abaixo:
 * Acessar o site [MVN Repository](https://mvnrepository.com/) e efetuar uma busca por 'cucumber'
 * Clicar na opção *"Cucumber JVM: JUnit"* > selecionar a versão 1.2.5
 * Copiar o trecho de código abaixo e colar no arquivo 'pom.xml' do projeto:
+
 
 ```
 <dependencies>
@@ -210,7 +234,9 @@ Para rodar os testes com o JUnit, siga os passos abaixo:
 </dependencies>
 ```
 
+
 ### Criação da classe Runner
+
 
 ```java
 import org.junit.runner.RunWith;
@@ -219,14 +245,18 @@ import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = "pretty", monochrome = true, snippets = SnippetType.CAMELCASE, dryRun = false, strict = false)
+@CucumberOptions(plugin = "pretty", monochrome = true, snippets = SnippetType.CAMELCASE, dryRun = false,
+strict = false)
 public class Runner {
 
 }
 ```
 
-Após importar o JUnit e criar a class 'Runner' no projeto, acesse o botão Run > Run As > JUnit Test
+<br/>
+Após importar o JUnit e criar a class 'Runner' no projeto, acesse o botão Run > Run As > JUnit Test.
 
+
+-------
 
 ## License
 
