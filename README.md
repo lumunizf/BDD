@@ -5,6 +5,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/lumunizf/BDD)](https://github.com/lumunizf/BDD/issues) 
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/lumunizf/BDD)](https://img.shields.io/github/issues-closed/lumunizf/BDD)
 [![GitHub last commit](https://img.shields.io/github/last-commit/lumunizf/BDD)](https://github.com/lumunizf/BDD/commits/master)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lumunizf/BDD/CI)
 [![Twitter Follow](https://img.shields.io/badge/follow-%40lumunizf-blue.svg?style=popout&logo=twitter)](https://twitter.com/lumunizf)
 [![Website](https://img.shields.io/website?url=https://medium.com/@lumunizf)](https://medium.com/@lumunizf)
 
