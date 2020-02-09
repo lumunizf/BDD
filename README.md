@@ -267,6 +267,8 @@ public class Runner {
 Após importar o JUnit e criar a class 'Runner' no projeto, acesse o botão Run > Run As > JUnit Test.
 
 <br/>
+<br/>
+
 
 <div align="center">
 <img src="images/execucao.png" alt="BDD" width="500" />
