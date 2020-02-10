@@ -214,7 +214,15 @@ Para adicionar as bibliotecas do Cucumber Eclipse Plugin e suas dependências, d
 ## Execução dos testes
 
 
-Para executar os testes com o Cucumber, acesse no Eclipse o botão Run > Run As > "Cucumber Feature"
+### Execução de testes com o Cucumber
+
+<div align="center">
+<img src="images/cucumber.png" alt="Cucumber" width="100" />
+</div>
+
+
+Para executar os testes com o **Cucumber**, siga os passos abaixo:
+* Acesse no Eclipse o botão Run > Run As > "Cucumber Feature".
 
 <br/>
 
@@ -225,7 +233,7 @@ Para executar os testes com o Cucumber, acesse no Eclipse o botão Run > Run As 
 </div>
 
 
-Para rodar os testes com o JUnit, siga os passos abaixo:
+Para executar os testes com o **JUnit**, siga os passos abaixo:
 * Acesse o site [MVN Repository](https://mvnrepository.com/) e efetue uma busca por 'cucumber'
 * Clique na opção *"Cucumber JVM: JUnit"* > selecione a versão 1.2.5
 * Copie o trecho de código abaixo e cole no arquivo 'pom.xml' do projeto:
