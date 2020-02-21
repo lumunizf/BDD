@@ -171,6 +171,7 @@ Valide se a biblioteca do JRE está na mesma versão da biblioteca JRE baixada e
 <img src="images/cucumber-logo.png" alt="Cucumber" width="50" />
 </div>
 
+<br/>
 
 Para instalar o **Cucumber Eclipse Plugin** no Eclipse, siga os passos abaixo:
 
@@ -217,7 +218,7 @@ Para adicionar as bibliotecas do Cucumber Eclipse Plugin e suas dependências, d
 ### Execução de testes com o Cucumber
 
 <div align="center">
-<img src="images/cucumber.png" alt="Cucumber" width="100" />
+<img src="images/cucumber.png" alt="Cucumber" width="200" />
 </div>
 
 
