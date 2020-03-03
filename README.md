@@ -13,6 +13,7 @@
 <p align="center">
     <a href="#bdd">BDD</a> &bull;
     <a href="#cucumber">Cucumber</a> &bull;
+    <a href="#specflow">SpecFlow</a> &bull;
     <a href="#gherkin">Gherkin</a> &bull;
     <a href="#testes">Testes Automatizados</a> &bull;
     <a href="#configuração">Configurações</a> &bull;
@@ -48,6 +49,25 @@
 <br/>
 
 É um framework para a prática do BDD. Através dele escrevemos as especificações das funcionalidades utilizando a linguagem [Gherkin](https://cucumber.io/docs/gherkin/ "Sintaxe do Gherkin").
+
+Neste projeto utilizei o Cucumber como framework para implementar o BDD.
+
+<br/>
+
+
+## SpecFlow
+
+<div align="center">
+<img src="images/specflow.png" alt="Cucumber" width="150" />
+</div>
+
+<br/>
+
+Também é um framework para a prática do BDD, normalmente utilizado em projetos e soluções .NET.
+
+O SpecFlow suporta o [Gherkin](https://cucumber.io/docs/gherkin/ "Sintaxe do Gherkin"), mesma sintaxe utilizada com o Cucumber.
+
+<br/>
 
 
 ## Gherkin
